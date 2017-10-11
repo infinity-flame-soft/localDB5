@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.apkkothon.localdb.MainActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="enter name"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:id="@+id/et_prof"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:hint="enter profession"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/bt_add"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="Add Data"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:id="@+id/bt_show"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Show Data"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</LinearLayout>
